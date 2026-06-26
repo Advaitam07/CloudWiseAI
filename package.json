@@ -1,0 +1,13 @@
+{
+  "name": "cloudwise-ai-monorepo",
+  "version": "1.0.0",
+  "description": "CloudWise AI Cloud Design & Optimization Platform",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-react": "^6.15.4"
+  }
+}
